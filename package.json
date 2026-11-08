@@ -1,7 +1,7 @@
 {
   "name": "prototype",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -9,5 +9,9 @@
   },
   "dependencies": {
     "expo": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "typescript": "^5.9.2"
   }
 }
