@@ -17,6 +17,11 @@ const items: { route: Route; title: string }[] = [
   { route: 'account', title: 'Новый аккаунт' },
   { route: 'password', title: 'Установка пароля' },
   { route: 'home', title: 'Главная' },
+  { route: 'empty', title: 'Пустое состояние' },
+  { route: 'feedback', title: 'Отзыв' },
+  { route: 'search', title: 'Поиск' },
+  { route: 'results', title: 'Результаты поиска' },
+  { route: 'filter', title: 'Фильтр' },
 ];
 
 export default function Gallery({ go, back }: ScreenProps) {

@@ -14,6 +14,11 @@ import NewAccount from './src/screens/NewAccount';
 import SetPassword from './src/screens/SetPassword';
 import Home from './src/screens/Home';
 import Gallery from './src/screens/Gallery';
+import EmptyState from './src/screens/EmptyState';
+import Feedback from './src/screens/Feedback';
+import Search from './src/screens/Search';
+import Results from './src/screens/Results';
+import Filter from './src/screens/Filter';
 import type { Params, Route, ScreenProps } from './src/types';
 
 const screens: Record<Route, ComponentType<ScreenProps>> = {
@@ -30,6 +35,11 @@ const screens: Record<Route, ComponentType<ScreenProps>> = {
   password: SetPassword,
   home: Home,
   gallery: Gallery,
+  empty: EmptyState,
+  feedback: Feedback,
+  search: Search,
+  results: Results,
+  filter: Filter,
 };
 
 type Entry = { route: Route; params?: Params };

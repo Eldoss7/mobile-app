@@ -16,7 +16,12 @@ export type Route =
   | 'account'
   | 'password'
   | 'home'
-  | 'gallery';
+  | 'gallery'
+  | 'empty'
+  | 'feedback'
+  | 'search'
+  | 'results'
+  | 'filter';
 
 export type Params = { chatId?: string };
 
